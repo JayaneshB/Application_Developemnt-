@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Demo App UI</string>
+    <string name="msg_greeting">Hello Jayanesh!</string>
+    <string name="hello_msg">Welcome to the third activity page!</string>
+    <string name="btn_go">go</string>
+    <string name="btn_txt">Welcome</string>
+</resources>
