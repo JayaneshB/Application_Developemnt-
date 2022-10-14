@@ -4,4 +4,6 @@
     <string name="hello_msg">Welcome to the third activity page!</string>
     <string name="btn_go">go</string>
     <string name="btn_txt">Welcome</string>
+    <string name="name">Jayanesh</string>
+    <string name="job">Android Developer Intern</string>
 </resources>
