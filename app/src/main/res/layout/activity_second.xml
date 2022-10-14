@@ -1,23 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/teal_700"
-    tools:context=".SecondActivity">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/blue">
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center_vertical"
+        android:layout_height="250px"
+        android:layout_width="250px"
+        android:foregroundGravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Frame Layout"
+        android:textSize="70px"
+        android:textStyle="bold" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/secondActivityButton"
-        android:text="Third Activity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints">
+        android:layout_gravity="center_horizontal"
+        android:text="@string/btn_txt"
+        android:textColor="@color/black"
+        android:background="@drawable/round_btn_multiplecolor"/>
 
-    </androidx.appcompat.widget.AppCompatButton>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,3 +1,11 @@
+
+/*In this second activity we will be using frame layout
+*These frame layout is used to organize view control
+* They are designed to block an area on the screen
+* used to hold child view, because it can be difficult to display single views at a specific
+* area on the screen without overlapping each other.
+* */
+
 package com.example.appui
 
 import android.content.Intent

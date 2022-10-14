@@ -1,3 +1,6 @@
+/*This splash screen activity is designed to using relative layout
+* This is used to place the child in different areas according to the sibling arrangement */
+
 package com.example.appui
 
 import android.content.Intent

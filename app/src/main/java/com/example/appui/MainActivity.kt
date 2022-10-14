@@ -1,3 +1,5 @@
+/*This main activity was designed using Constraint layout */
+
 package com.example.appui
 
 import android.content.Intent
